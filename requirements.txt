@@ -1,0 +1,11 @@
+pyautogen==0.2.17
+pyautogen[autobuild]==0.2.17
+beautifulsoup4
+openai
+pandas
+yfinance
+matplotlib
+streamlit
+chromadb
+tiktoken
+pypdf
