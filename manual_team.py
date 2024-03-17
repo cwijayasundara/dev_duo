@@ -72,8 +72,8 @@ def execute_manual_team(request):
 
 
 #  testing the above function
-response_1 = execute_manual_team("Write a Python function to add two numbers.")
-chat_history = response_1.chat_history
-for message in chat_history:
-    print(message)
-    print("\n")
+# response_1 = execute_manual_team("Write a Python function to add two numbers.")
+# chat_history = response_1.chat_history
+# for message in chat_history:
+#     print(message)
+#     print("\n")

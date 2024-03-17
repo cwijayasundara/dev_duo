@@ -9,3 +9,11 @@ streamlit
 chromadb
 tiktoken
 pypdf
+langchain-openai
+langchain
+langchain-community
+langchainhub
+langgraph
+faiss-cpu
+youtube-transcript-api
+
