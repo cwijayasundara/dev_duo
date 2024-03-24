@@ -19,8 +19,8 @@ from generic_code_generator_chains import (
 st.title("Generic Code Generator")
 
 language = st.radio("Select Language:",
-                    ["Python", "Java", "C#", "TypeScript", "Rust", "Kotlin"])
-
+                    ["Python", "Java", "C#", "TypeScript", "Rust", "Kotlin", "Go", "Rust"])
+st.image("images/code_generator.webp", use_column_width=True)
 request = st.text_area('Please Detail Your Desired Use Case for Code Generation! ', height=200)
 app_name = st.text_input('Enter Project Name:')
 submit = st.button("submit", type="primary")
