@@ -14,16 +14,3 @@ interpreter_assistant = OpenAIAssistantRunnable.create_assistant(
 def execute_openai_assistant(request):
     output = interpreter_assistant.invoke({"content": request})
     return output
-
-
-# output = interpreter_assistant.invoke({"content": "What is the best way to write a Python function to calculate the "
-#                                                   "factorial of a number?"})
-#
-#
-# def pretty_print(messages):
-#     for m in messages:
-#         print(f"{m.role}: {m.content[0].text.value}")
-#     print()
-#
-#
-# pretty_print(output)
